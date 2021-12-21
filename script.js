@@ -29,3 +29,10 @@ $('.menu-btn').click(function(){
     $('.navbar .menu').toggleClass("active");
     $('.menu-btn i').toggleClass("active");
 });
+// typing text animation script
+var typed = new Typed(".typing", {
+    strings: ["ВТук-20-7", "ВТПОук-21-1"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+});
