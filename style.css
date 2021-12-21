@@ -251,4 +251,5 @@ section .title::after{
 .about .about-content .right a:hover{
     color: crimson;
     background: none;
+    
 }
